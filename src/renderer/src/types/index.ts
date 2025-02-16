@@ -245,6 +245,7 @@ export interface KnowledgeBase {
   chunkSize?: number
   chunkOverlap?: number
   threshold?: number
+  prompt?: string
 }
 
 export type KnowledgeBaseParams = {

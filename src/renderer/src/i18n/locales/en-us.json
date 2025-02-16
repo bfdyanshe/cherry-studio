@@ -301,7 +301,11 @@
       "threshold_placeholder": "Not set",
       "threshold_too_large_or_small": "Threshold cannot be greater than 1 or less than 0",
       "no_match": "No matching content found in the knowledge base.",
-      "threshold": "Matching threshold"
+      "threshold": "Matching threshold",
+      "prompt": "Prompt",
+      "prompt_placeholder": "Enter a custom prompt for this knowledge base. If not set, the default prompt will be used",
+      "prompt_tooltip": "The prompt template for knowledge base. Use {question} to represent user's question and {references} to represent retrieved content.",
+      "prompt_tooltip": "The prompt template for knowledge base. Use {question} to represent user's question and {references} to represent retrieved content."
     },
     "languages": {
       "arabic": "Arabic",

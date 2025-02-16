@@ -301,7 +301,10 @@
       "threshold_placeholder": "未設置",
       "threshold_too_large_or_small": "しきい値は0より大きく1より小さい必要があります",
       "no_match": "知識ベースの内容が見つかりませんでした。",
-      "threshold": "マッチング度閾値"
+      "threshold": "マッチング度閾値",
+      "prompt": "プロンプト",
+      "prompt_placeholder": "知識ベース専用のプロンプトを入力してください。未設定の場合はデフォルトのプロンプトが使用されます",
+      "prompt_tooltip": "知識ベースのプロンプトテンプレート。{question}はユーザーの質問を、{references}は取得したコンテンツを表します。"
     },
     "languages": {
       "arabic": "アラビア語",

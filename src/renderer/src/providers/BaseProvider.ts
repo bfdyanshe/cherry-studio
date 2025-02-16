@@ -5,6 +5,7 @@ import { getKnowledgeReferences } from '@renderer/services/KnowledgeService'
 import store from '@renderer/store'
 import { Assistant, GenerateImageParams, Message, Model, Provider, Suggestion } from '@renderer/types'
 import { delay, isJSON, parseJSON } from '@renderer/utils'
+import Logger from 'electron-log'
 import OpenAI from 'openai'
 
 import { CompletionsParams } from '.'
@@ -97,7 +98,13 @@ export default abstract class BaseProvider {
       return message.content
     }
 
-    return REFERENCE_PROMPT.replace('{question}', message.content).replace('{references}', referencesContent)
+    const prompt = base.prompt?.length === 0 ? REFERENCE_PROMPT : base.prompt || REFERENCE_PROMPT
+    Logger.debug('[BaseProvider] Prompt template:', prompt)
+
+    const result = prompt.replace('{question}', message.content).replace('{references}', referencesContent)
+    Logger.debug('[BaseProvider] Final prompt:', result)
+
+    return result
   }
 
   protected getCustomParameters(assistant: Assistant) {

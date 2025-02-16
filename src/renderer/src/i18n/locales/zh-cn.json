@@ -301,7 +301,10 @@
       "title": "知识库",
       "url_added": "网址已添加",
       "url_placeholder": "请输入网址, 多个网址用回车分隔",
-      "urls": "网址"
+      "urls": "网址",
+      "prompt": "知识库提示词模板",
+      "prompt_placeholder": "输入知识库专用的提示词，如果不设置则使用默认提示词。",
+      "prompt_tooltip": "设置此知识库专用的提示词，用于生成回答。支持使用 {question} 和 {references} 作为占位符"
     },
     "languages": {
       "arabic": "阿拉伯文",

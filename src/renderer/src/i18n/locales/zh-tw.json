@@ -301,7 +301,10 @@
       "threshold_placeholder": "未設置",
       "threshold_too_large_or_small": "閾值不能大於1或小於0",
       "no_match": "未匹配到知識庫內容",
-      "threshold": "匹配度閾值"
+      "threshold": "匹配度閾值",
+      "prompt": "提示詞",
+      "prompt_placeholder": "輸入知識庫專用的提示詞，如果不設置則使用預設提示詞",
+      "prompt_tooltip": "知識庫的提示詞模板。使用 {question} 代表用戶的問題，使用 {references} 代表檢索到的內容。"
     },
     "languages": {
       "arabic": "阿拉伯文",
