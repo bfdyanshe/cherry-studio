@@ -303,8 +303,12 @@
       "no_match": "知識ベースの内容が見つかりませんでした。",
       "threshold": "マッチング度閾値",
       "prompt": "プロンプト",
-      "prompt_placeholder": "知識ベース専用のプロンプトを入力してください。未設定の場合はデフォルトのプロンプトが使用されます",
-      "prompt_tooltip": "知識ベースのプロンプトテンプレート。{question}はユーザーの質問を、{references}は取得したコンテンツを表します。"
+      "prompt_placeholder": "知識ベース専用のプロンプトを入力してください。未設定の場合はデフォルトのプロンプトが使用されます。",
+      "prompt_tooltip": "この知識ベース専用のプロンプトテンプレートを設定し、回答を生成します。プレースホルダーをサポート：{question}はユーザーの質問を表し、{references}は知識ベースからの内容を表します。",
+      "insert_user_input": "ユーザー入力を挿入",
+      "insert_references": "知識ベースの内容を挿入",
+      "copy_default_template": "デフォルトテンプレートをコピー",
+      "copy_default_template_success": "デフォルトテンプレートをクリップボードにコピーしました"
     },
     "languages": {
       "arabic": "アラビア語",

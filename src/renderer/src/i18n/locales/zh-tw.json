@@ -303,8 +303,12 @@
       "no_match": "未匹配到知識庫內容",
       "threshold": "匹配度閾值",
       "prompt": "提示詞",
-      "prompt_placeholder": "輸入知識庫專用的提示詞，如果不設置則使用預設提示詞",
-      "prompt_tooltip": "知識庫的提示詞模板。使用 {question} 代表用戶的問題，使用 {references} 代表檢索到的內容。"
+      "prompt_placeholder": "輸入知識庫專用的提示詞，如果不設置則使用預設提示詞。",
+      "prompt_tooltip": "設置此知識庫專用的提示詞，用於生成回答。支持使用佔位符：{question} 表示用戶的問題，{references} 表示知識庫中的內容。",
+      "insert_user_input": "插入用戶輸入",
+      "insert_references": "插入知識庫內容",
+      "copy_default_template": "複製預設提示詞",
+      "copy_default_template_success": "已複製預設提示詞到剪貼簿"
     },
     "languages": {
       "arabic": "阿拉伯文",

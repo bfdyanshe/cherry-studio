@@ -303,9 +303,12 @@
       "no_match": "No matching content found in the knowledge base.",
       "threshold": "Matching threshold",
       "prompt": "Prompt",
-      "prompt_placeholder": "Enter a custom prompt for this knowledge base. If not set, the default prompt will be used",
-      "prompt_tooltip": "The prompt template for knowledge base. Use {question} to represent user's question and {references} to represent retrieved content.",
-      "prompt_tooltip": "The prompt template for knowledge base. Use {question} to represent user's question and {references} to represent retrieved content."
+      "prompt_placeholder": "Enter a custom prompt for this knowledge base. If not set, the default prompt will be used.",
+      "prompt_tooltip": "Set a custom prompt template for this knowledge base to generate responses. Supports placeholders: {question} represents the user's question, {references} represents the content from the knowledge base.",
+      "insert_user_input": "Insert User Input",
+      "insert_references": "Insert Knowledge Base Content",
+      "copy_default_template": "Copy Default Template",
+      "copy_default_template_success": "Default template copied to clipboard"
     },
     "languages": {
       "arabic": "Arabic",

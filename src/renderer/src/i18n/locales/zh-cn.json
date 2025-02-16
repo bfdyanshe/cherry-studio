@@ -304,7 +304,11 @@
       "urls": "网址",
       "prompt": "知识库提示词模板",
       "prompt_placeholder": "输入知识库专用的提示词，如果不设置则使用默认提示词。",
-      "prompt_tooltip": "设置此知识库专用的提示词，用于生成回答。支持使用 {question} 和 {references} 作为占位符"
+      "prompt_tooltip": "设置此知识库专用的提示词，用于生成回答。支持使用 {question} 和 {references} 作为占位符，{question} 表示用户的问题，{references} 表示知识库中的内容。",
+      "insert_user_input": "插入用户输入",
+      "insert_references": "插入知识库内容",
+      "copy_default_template": "复制默认提示词",
+      "copy_default_template_success": "已复制默认提示词到剪贴板"
     },
     "languages": {
       "arabic": "阿拉伯文",

@@ -265,22 +265,21 @@ const PopupContainer: React.FC<Props> = ({ base: _base, resolve }) => {
               form.setFieldsValue({ prompt: e.target.value })
             }}
           />
-          <div style={{ marginTop: 8 }}>
+          <div style={{ marginTop: 8, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
             <Button size="small" onClick={() => handleInsertVariable(form, 'question')}>
-              插入 {'{question}'}
+              {t('knowledge.insert_user_input')}
             </Button>
-            <Button style={{ marginLeft: 8 }} size="small" onClick={() => handleInsertVariable(form, 'references')}>
-              插入 {'{references}'}
+            <Button size="small" onClick={() => handleInsertVariable(form, 'references')}>
+              {t('knowledge.insert_references')}
             </Button>
             <Button
-              style={{ marginLeft: 8 }}
               size="small"
               onClick={() => {
                 navigator.clipboard.writeText(REFERENCE_PROMPT).then(() => {
-                  window.message.success('已复制默认模板到剪贴板')
+                  window.message.success(t('knowledge.copy_default_template_success'))
                 })
               }}>
-              复制默认模板
+              {t('knowledge.copy_default_template')}
             </Button>
           </div>
         </Form.Item>
